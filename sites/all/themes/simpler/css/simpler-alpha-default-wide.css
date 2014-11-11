@@ -1,0 +1,27 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+#zone-content-wrapper {
+  background: url(../images/content-top-wide.png) top center no-repeat;
+}
+#zone-content,
+#zone-postscript {
+  background: url(../images/content-wide.png) top center repeat-y;
+}
+#zone-postscript-wrapper {
+  background: url(../images/content-bottom-wide.png) bottom center no-repeat;
+}
+.navigation {
+  text-align: right;
+  margin-top: 65px;
+}
+#region-branding {
+  margin-bottom: 60px;
+}
+#region-branding .logo-img {
+  text-align: left;
+}
+.node-slideshow .group-left {
+  width: 56%;
+}
+.node-slideshow .group-right {
+  width: 44%;
+}

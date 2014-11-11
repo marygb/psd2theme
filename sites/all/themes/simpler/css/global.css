@@ -1,0 +1,266 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+html {
+  background: url(../images/bg.png);
+}
+#section-content {
+  background: #efece8;
+  border-top: 12px solid #bfbdba;
+  border-bottom: 12px solid #bfbdba;
+}
+#zone-content-wrapper,
+#zone-postscript-wrapper {
+  background: #f1f1f1;
+}
+body {
+  color: #444444;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arvo,'Times New Roman',serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+#region-branding {
+  margin-top: 32px;
+}
+#region-branding .logo-img {
+  text-align: center;
+  float: none;
+}
+#main-menu {
+  font-family: Arvo,'Times New Roman',serif;
+  font-weight: 700; 
+  font-size: 13px;
+}
+.navigation {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#main-menu li {
+  margin-right: 15px;
+}
+#main-menu li.last {
+  margin-right: 0;
+}
+#main-menu a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#main-menu a:hover,
+#main-menu a:active,
+#main-menu a.active,
+#main-menu a.active-trail {
+  color: #fee271;
+  border-bottom: 3px solid #fee271;
+}
+h1#page-title {
+  text-transform: uppercase;
+  padding: 10px 24px 24px 24px;
+  border-bottom: 1px solid #d8d8d8;
+  font-size: 48px;
+}
+body.front h1#page-title {
+  display: none;
+}
+#region-sidebar-second {
+  color: #888888;
+}
+#region-sidebar-second a {
+  color: #444444;
+  text-decoration: none;
+}
+#region-sidebar-second h2 {
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #444444;
+}
+div.field-name-field-blog-image img {
+  padding: 7px;
+  background: #ffffff;
+  box-shadow: 0px 0px 3px #ccc;
+  margin-top: 15px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.node-blog.view-mode-teaser .field-name-title h2 {
+  font-size: 21px;
+  text-transform: uppercase;
+}
+.blog-date {
+  background: #3b424b;
+  padding: 5px 3px;
+  width: 50%;
+}
+.blog-date div {
+  display: inline-block;
+  font-family: "Arvo", "Times New Roman", serif;
+  font-weight: 700;
+  color: #fee271;
+  font-size: 14px;
+  line-height: 18px;
+  margin-right: 6px;
+}
+.view-mode-teaser .field-name-title a {
+  color: #444444;
+  text-decoration: none;
+}
+.view-blog .views-row {
+  margin-bottom: 50px;
+}
+.view-blog {
+  color: #888888;
+}
+.view-blog ul.pager li {
+  display: block;
+}
+.view-blog ul.pager li.pager-next.last {
+  right: inherit;
+  left: 0;
+  border-left: none;
+}
+.view-blog ul.pager li.pager-previous.first {
+  float: none;
+  position: absolute;
+  right: 0;
+  border-right: none;
+}
+.view-blog ul.pager li.pager-current {
+  display: none;
+}
+.view-blog ul.pager li a {
+  width: 150px;
+  background: none;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #444444;
+  
+}
+.node a {
+  color: #444444;
+}
+.view-blog > .item-list {
+  height: 70px;
+}
+#region-content .region-inner,
+#region-sidebar-second .region-inner {
+  margin: 0 18px;
+}
+.node-blog .field-name-author a,
+.node-blog .comment-count {
+  color: #888888;
+  font-family: Arvo, "Times New Roman", serif;
+  text-decoration: none;
+}
+.node-blog .field-name-author {
+  float: left;
+  padding-right: 10px;
+  border-right: 1px solid #888888;
+  margin-right: 10px;
+}
+.node-teaser h2 {
+  margin-bottom: 5px;
+}
+
+body.front #zone-content {
+  padding-bottom: 30px;
+}
+body.front #zone-postscript,
+body.node-type-portfolio #zone-postscript {
+  border-top: 1px solid #D8D8D8;
+  padding-top: 30px;
+}
+#region-postscript-second h2.block-title {
+  margin-left: 20px;
+}
+#region-postscript-first .region-inner, #region-sidebar-second .region-inner {
+    margin: 0 18px;
+}
+#region-postscript-first h2.block-title {
+  text-transform: uppercase;
+  font-size: 21px;
+  margin-bottom: 30px;
+}
+#region-postscript-first .node-blog h2 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+#region-postscript-first .node-blog h2 a {
+  text-decoration: none;
+}
+.view-blog.view-display-id-block_2 .views-row {
+  margin-bottom: 10px;
+}
+.block-views-portfolio-block-1 h2.block-title {
+  text-align: center;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+.view-portfolio img {
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 3px #ccc;
+}
+.view-portfolio .views-row h2 {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 10px;
+  font-weight: normal;
+}
+.view-portfolio .views-row h2 a {
+  text-decoration: none;
+}
+.view-portfolio .views-row .field-name-body {
+  color: #888888;
+}
+.view-portfolio .views-row {
+  height: 400px;
+}
+.view-portfolio .view-content:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.view-portfolio .more-link a {
+  display: inline-block;
+  background: #3b424b;
+  padding: 5px 15px;
+  font-family: "Arvo", "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 13px;
+  color: #fee271;
+  width: auto;
+  text-decoration: none;
+}
+
+#zone-content .field-name-field-portfolio-link {
+  display: none;
+}
+#zone-content #region-content .field-name-field-portfolio-link {
+  display: block;
+}
+
+.view-related-projects .views-row img {
+  padding: 7px;
+  background: #ffffff;
+}
+.view-related-projects .views-row h2 {
+  font-size: 100%;
+  font-family: Arial, sans-serif;
+}
+.node-portfolio.view-mode-full .field-name-field-portfolio-image {
+  margin-bottom: 20px;
+}
